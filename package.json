@@ -1,0 +1,39 @@
+{
+  "name": "moosejs-cli",
+  "version": "0.0.1",
+  "description": "Command Line Interface for the Moose Judging System",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moosejs/moosejs-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "programming",
+    "contests",
+    "moosejs",
+    "acmicpc",
+    "ioi"
+  ],
+  "author": "Ricardo Montero (rjtm1992@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moosejs/moosejs-cli/issues"
+  },
+  "homepage": "https://github.com/moosejs/moosejs-cli",
+  "bin": {
+    "moosejs": "moosejs.js"
+  },
+  "dependencies": {
+    "cedar": "^0.3.2",
+    "commander": "^2.9.0",
+    "prompt": "^0.2.14",
+    "q": "^1.4.1",
+    "request": "^2.67.0",
+    "shelljs": "^0.5.3",
+    "unzip": "^0.1.11"
+  }
+}
